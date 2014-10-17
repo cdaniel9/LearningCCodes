@@ -1,7 +1,8 @@
 //Factorial Function with Recursion
 
 #include <stdio.h>
-int factorial(int f);
+
+int factorial(int f);       //Factorial Function Prototype
 
 int main(){
     
