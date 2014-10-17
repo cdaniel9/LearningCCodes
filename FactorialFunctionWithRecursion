@@ -1,0 +1,27 @@
+//Factorial Function with Recursion
+
+#include <stdio.h>
+int factorial(int f);
+
+int main(){
+    
+    int num,factor;
+    
+    printf("Enter a positive integer:\n");
+    
+    scanf("%d",&num);
+    
+    factor=factorial(num);
+    
+    printf("Factorial of number = %d",factor);
+}
+
+
+int factorial(int n){
+    
+    if(n==1)
+       return n;
+    else
+       return n*factorial(n-1);    /*self call  to function factorial() */
+    
+}
